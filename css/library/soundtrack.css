@@ -1,0 +1,82 @@
+._23zCI_59RJTWRvY-_YCFb9{
+    background: var(--DarkGreenBG);
+}
+
+._26bNl_GrQVxUbLj1KjGJQN ._3JZ9bzoPhr9prUKdYatsP1{
+    display: none;
+}
+
+._1R0eEV6Mxu9G0FnF8g9vNI{
+    border: var(--Outset);
+    filter: drop-shadow(0 0 0 black) !important;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+._1NbxLEcEzNVpZ0TY7ONgs1{
+    box-sizing: border-box;
+    background: var(--GreenBG);
+    border: var(--Outset);
+    width: 100%;
+    padding: 4px 4px 0;
+}
+
+._2pcGGedg89N3zrMcv-eZWQ, .J_w15AskfksVz-60nWbt1, .J_w15AskfksVz-60nWbt1, ._3C_pTK3Ed-6j5P02srRHtc{
+    text-transform: none;
+    color: var(--Label) !important;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY ._4f23lVS-5qWUNLy1QTm12 ._2bTdSZveC7h_neiBX4DAsa, ._1c7FWVusLDkD_Lv6ZB0uTY ._4f23lVS-5qWUNLy1QTm12 .oW5xvEBArmBDwEZHO3Xip{
+    color: var(--OffWhite);
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .LeftColumn.WithControls{
+    overflow-x: hidden;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .LeftColumn .PlayMusic{
+    box-sizing: border-box;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn{
+    border: var(--Inset);
+    box-shadow: none;
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer{
+    border-radius: 0%;
+    background-color: var(--DarkGreenBG);
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .Disc, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing.Playing, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing:hover{
+    border: var(--Outset);
+    background: var(--GreenBG);
+}
+
+._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing .TrackLength, ._1c7FWVusLDkD_Lv6ZB0uTY .ContentHubMainCarouselCapsule .RightColumn .TrackListContainer .TrackListing .TrackNumber{
+    color: var(--Label);
+}
+
+/* Play section =================================================================*/
+._5ZEYSTRBHDswDtriduXW0{
+    background: transparent;
+    border: none;
+    border-radius: 0%;
+}
+
+button._1iFnR7cGRa1kepep433pGx.gpfocus, button._1iFnR7cGRa1kepep433pGx:active{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+._3UIUDh2q1nXDaHbWOLCILH, ._3o137DBNF03ytbLBl2jPri:hover ._3UIUDh2q1nXDaHbWOLCILH{
+    border-radius: 0;
+    background: var(--DarkGreenBG);
+    border: var(--Inset);
+    --left-track-color: var(--Maize);
+}
+
+._3UIUDh2q1nXDaHbWOLCILH::before{
+    border-radius: 0;
+}
+

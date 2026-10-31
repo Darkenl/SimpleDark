@@ -1,0 +1,216 @@
+/* Compact custom game card; native Steam actions stay below it. */
+.AppDetailsMain .Header:has(~ .AppDetailsOverviewPanel) {
+    display: none !important;
+}
+
+#sd-hero {
+    display: grid;
+    grid-template-columns: minmax(110px, 21%) 145px minmax(0, 1fr);
+    gap: 6px;
+    margin: 4px 8px 0;
+    height: 80px;
+    min-height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: var(--GreenBG);
+    border: 1px solid var(--LightGreenBG);
+}
+#sd-hero .sd-hero-img {
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    background: var(--DarkGreenBG);
+}
+#sd-hero .sd-hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#sd-hero .sd-hero-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    padding: 5px 0;
+    min-width: 0;
+}
+#sd-hero .sd-stat {
+    background: var(--DarkGreenBG);
+    padding: 1px 5px;
+    line-height: 14px;
+}
+#sd-hero .sd-stat-k {
+    color: var(--OffWhite);
+    font-size: 11px;
+    white-space: nowrap;
+}
+#sd-hero .sd-stat-v {
+    color: var(--DimListText);
+    font-size: 11px;
+    white-space: nowrap;
+}
+#sd-hero .sd-hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4px;
+    padding: 5px 8px 5px 0;
+    min-width: 0;
+    min-height: 0;
+}
+#sd-hero .sd-snippet {
+    align-self: stretch;
+    color: var(--OffWhite);
+    font-size: 11px;
+    line-height: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+#sd-hero .sd-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: right;
+}
+#sd-hero .sd-meta-row {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#sd-hero .sd-meta-k {
+    color: var(--Label);
+    margin-right: 3px;
+}
+#sd-hero .sd-meta-v {
+    color: var(--OffWhite);
+}
+/* Steam's own Play / Install bar supplies the primary action. */
+#sd-hero .sd-action {
+    display: none;
+}
+
+/* Extra compact card: three single-line stats and two rows of metadata. */
+#sd-hero .sd-hero-stats { gap: 3px; padding: 4px 0; }
+#sd-hero .sd-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 4px;
+    min-width: 0;
+}
+#sd-hero .sd-stat-k, #sd-hero .sd-stat-v { font-size: 10px; line-height: 14px; }
+#sd-hero .sd-hero-info { padding: 4px 6px 4px 0; gap: 4px; }
+#sd-hero .sd-snippet { font-size: 10px; line-height: 12px; }
+#sd-hero .sd-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    column-gap: 8px;
+    row-gap: 1px;
+    line-height: 12px;
+    text-align: left;
+}
+/* Keep the action and links close to the card. */
+.AppDetailsOverviewPanel .PlayBar {
+    padding: 4px 10px !important;
+    margin: 0 !important;
+    min-height: 36px !important;
+}
+.AppDetailsOverviewPanel .PlayButton {
+    min-height: 28px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj {
+    padding-inline: 10px !important;
+    margin-top: 0 !important;
+    margin-bottom: 4px !important;
+}
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj ._25f0fX6qbgdB7O_lMrbhCN,
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj ._2ESi7WxCzXVx5-FsveYJ1f {
+    padding: 3px 6px !important;
+}
+
+/* Requested game-page sections. Hide the whole section, including its header. */
+.AppDetailsOverviewPanel .sd-hidden-game-section,
+.AppDetailsOverviewPanel ._3ii4EUZ1oF_rrhxGNbOcXO,
+.AppDetailsOverviewPanel ._2_TE0KLOU7kWWxa9LS7iXA,
+.AppDetailsOverviewPanel ._176QJCynkEUSdR_-9btdAW,
+.AppDetailsOverviewPanel ._3iIro38Q-z5F_75QwHtFuc,
+.AppDetailsOverviewPanel ._2r4TK4BAuU-J4FuF_O7v_5:has(._2ie48XbgFd0lvzMJhJ8Es_, ._14U8eM1W6Z4uJhCc5zvbKC, ._2L6IIbLCMWUJcOhliUVqKb) {
+    display: none !important;
+}
+
+/* One card contains artwork, stats, details, and Steam's primary action. */
+#sd-hero {
+    grid-template-columns: minmax(100px, 20%) 140px minmax(0, 1fr) auto;
+    column-gap: 6px;
+}
+#sd-hero .sd-action {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px 4px 0;
+}
+#sd-hero .sd-play {
+    border: 1px solid var(--LightGreenBG);
+    background: var(--DarkGreenBG);
+    color: var(--Maize);
+    padding: 6px 10px;
+    min-height: 30px;
+    max-width: 120px;
+    font: 600 12px/16px Arial, sans-serif;
+    cursor: pointer;
+}
+#sd-hero .sd-play:hover { background: var(--LightGreenBG); }
+#sd-hero .sd-play:disabled { opacity: .5; cursor: default; }
+#sd-hero .sd-play:empty { display: none; }
+/* Keep the native row as a fallback until the card has a usable action. */
+.AppDetailsMain:has(#sd-hero[data-action-ready="true"]) ._3Yf8b2v5oOD8Wqsxu04ar,
+.AppDetailsMain:has(#sd-hero[data-action-ready="true"]) > ._2L3s2nzh7yCnNESfI5_dN1 {
+    display: none !important;
+}
+/* Remove the posting prompt and blank feed; actual activity remains visible. */
+.AppDetailsOverviewPanel .YFAtL5H6txGXk5T_IhpUF,
+.AppDetailsOverviewPanel ._2-kDc3UDR-GN6V1lBpSupb,
+.AppDetailsOverviewPanel ._2r4TK4BAuU-J4FuF_O7v_5:has(._2-kDc3UDR-GN6V1lBpSupb) {
+    display: none !important;
+}
+
+/* Stack two small actions within the existing 80px game card. */
+#sd-hero .sd-action {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 4px;
+}
+#sd-hero .sd-links {
+    border: 1px solid var(--LightGreenBG);
+    background: var(--DarkGreenBG);
+    color: var(--OffWhite);
+    min-height: 22px;
+    padding: 2px 8px;
+    font: 11px/16px Arial, sans-serif;
+    cursor: pointer;
+}
+#sd-hero .sd-links[hidden] { display: none !important; }
+#sd-hero .sd-links:hover { background: var(--LightGreenBG); }
+/* Keep the original links mounted and measurable for Steam's native menu. */
+.AppDetailsMain:has(#sd-hero[data-links-ready="true"]) ._3-V8vjmrwuJM6Ws3tsjFJj {
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden !important;
+    opacity: 0;
+    pointer-events: none;
+}

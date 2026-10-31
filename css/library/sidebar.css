@@ -1,0 +1,268 @@
+._9sPoVBFyE_vE87mnZJ5aB{
+    border: var(--Inset);
+}
+
+/* Home Button & Collections Button ======================================================================= */
+._3pSPluBgf0NeR1kkCLWMhR{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+    transition: none;
+}
+
+.eNLOx4LVceeMwRvTVWh3._3pSPluBgf0NeR1kkCLWMhR{
+    background-color: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+._3pSPluBgf0NeR1kkCLWMhR svg{
+    display: none;
+}
+
+[class^="_2TKEazUUS3TlniZfpc8OOe"]{
+    padding-top: 8px;
+    padding-bottom: 2px;
+    background-color: var(--DarkGreenBG);
+    box-shadow: none;
+}
+
+[class^="_3O48LaKWcabKx07xdrt1TH"]{
+    color: var(--OffWhite);
+    text-transform: none;
+}
+
+._30KGSfPjPskFlnrSxBfkiK{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+}
+
+._2tyaVs9BpqcW068aaOrO56{
+    background: var(--OffWhite) !important;
+}
+
+.Selected ._2tyaVs9BpqcW068aaOrO56, ._30KGSfPjPskFlnrSxBfkiK:hover ._2tyaVs9BpqcW068aaOrO56{
+    background: var(--OffWhite) !important;
+}
+
+/* Games Software Dropdown & Toggles ======================================================================= */
+
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"] [class^="_2PF_m-I5yte3WnQhpcz8RC"]{
+    background-color: var(--DarkGreenBG);
+    border: 1px solid var(--GreenBG);
+    border-radius: 0%;
+    text-transform: none;
+}
+
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"] [class^="_2PF_m-I5yte3WnQhpcz8RC"]:hover{
+    background-color: var(--GreenBG);
+}
+
+[class^="_1PgAonvorr0o_NMxNKiDFU"] ._1QFFkxM5hw-43miIiylbwq svg{
+    fill: var(--Maize) !important;
+}
+[class^="_1PgAonvorr0o_NMxNKiDFU"] ._1QFFkxM5hw-43miIiylbwq circle, [class^="_1PgAonvorr0o_NMxNKiDFU"] ._1QFFkxM5hw-43miIiylbwq polyline{
+    stroke: var(--Maize) !important;
+}
+
+[class^="_1ZS_xta5HMXzR8JgxDH6n7"]{
+    background-color: var(--DarkGreenBG);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY{
+    text-transform: none;
+} 
+
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._3iV2vMTw_vwWJ_gmiz1Q1k ._3iV2vMTw_vwWJ_gmiz1Q1k{
+    text-transform: none;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po{
+    background: var(--LightGreenBG) !important;
+    transition: none;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:hover{
+    color: var(--Maize);
+}
+
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po::before{
+    display: none;
+}
+
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:hover .SVGIcon_Button{
+    fill: var(--Maize);
+}
+
+/* This is for the scroll button. I think it sucks! :) */
+.uE7Pj4tb2n3_Bx4vjEX0a{
+    display: none;
+}
+
+/* Game Search Bar ======================================================================= */
+[class^="_20QAC4WMXm8qFE8waUT5oo"]{
+    padding: 6px 6px 4px;
+    background-color: var(--DarkGreenBG) !important;
+    margin: 0;
+    border-radius: 0;
+}
+
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS{
+    border: var(--Inset);
+    border-radius: 0 !important;
+    margin-right: 4px;
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] .DialogInput{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] .SearchInput{
+    border-radius: 0%;
+    border: 1px solid var(--GreenBG);
+    margin-right: 5px;
+    height: 34px;
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] .SearchInput input{
+    border: none;
+}
+
+[class^="_1TxHdzOt3OD9ikR3xIseKe"]{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+}
+
+[class^="_20QAC4WMXm8qFE8waUT5oo"] [class^="vCCmYvn9yQ_V8CpKupllU"] [class^="_1TxHdzOt3OD9ikR3xIseKe"] svg path{
+    fill: var(--OffWhite);
+}
+
+.Extended [class^="_1TxHdzOt3OD9ikR3xIseKe"]{
+    background-color: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+/* Advanced Search Menu */
+[class^="Woh0kBQCmatzC1daBX9i6"]{
+    background-color: var(--GreenBG) !important;
+    box-shadow: none !important;
+    border-radius: 0% !important;
+    border: 1px solid var(--DarkGreenBG);
+}
+
+[class^="Woh0kBQCmatzC1daBX9i6"]::before{
+    display: none;
+}
+
+[class^="_3gzh_NvTKey56JeHY7Q1WW"]{
+    background-color: var(--GreenBG) !important;
+}
+
+[class^="_3iV2vMTw_vwWJ_gmiz1Q1k"]{
+    color: var(--Maize) !important;
+}
+
+[class^="_1bqGAcZx1C71VYj14hz0po"]{
+    background: var(--MaizeBG) !important;
+    color: var(--OffWhite) !important;
+}
+
+/* Categories ======================================================================= */
+
+[class^="_2sYIghGVXJr6tsQVvcryy8"], [class^="_2sYIghGVXJr6tsQVvcryy8"]:hover{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+[class^="_2sYIghGVXJr6tsQVvcryy8"] svg{
+    stroke: var(--Maize) !important;
+}
+
+[class^="_2sYIghGVXJr6tsQVvcryy8"]._1dcGFHhye9BeEOg7CkFNQG{
+    border: var(--Outset);
+    background: var(--GreenBG);
+}
+
+._2mZ8LlvoUiyeEUtIWuTri, ._2mZ8LlvoUiyeEUtIWuTri:hover{
+    color: var(--Maize) !important;
+    text-transform: none !important;
+}
+
+/* Games ======================================================================= */
+[class^="_2Q95p8Q2cZFieeOi06-FS9"], ._1ijTaXJJA5YWl_fW2IxcaT .ReactVirtualized__Grid{
+    background: var(--DarkGreenBG);
+    margin: 0;
+    border-radius: 0%;
+    box-shadow: none;
+}
+
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ .CloudError{
+    background: transparent;
+    color: var(--Maize);
+}
+
+.-BsLCHlCHg50lwvxnBWt1, .-BsLCHlCHg50lwvxnBWt1 *{
+    background: transparent !important;
+}
+
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover, ._2-O4ZG0KrnSrzISHBKctFQ:hover{
+    background-color: var(--GreenBG) !important;
+    box-shadow: none !important;
+}
+
+._1LVQp3h_vGOZ8TuDUEge0k, ._3uk3F1BmAJQR6rl1TPcaif, ._2-O4ZG0KrnSrzISHBKctFQ._26PT_OTo7-JDunJWeZgjT8 span, ._10GdoB3tQXXGFToQ3yY_SK span, ._2-O4ZG0KrnSrzISHBKctFQ._1yaIZGJb4PvyjF3_SSQxFx{
+    color: var(--Maize) !important;
+}
+
+._1LVQp3h_vGOZ8TuDUEge0k circle, ._26PT_OTo7-JDunJWeZgjT8 circle, ._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb circle{
+    stroke: var(--Maize) !important;
+}
+
+._3cMVyOc-9F9Jvp3uKF7_xj{
+    background-color: var(--GreenBG) !important;
+    box-shadow: none !important;
+    border-radius: 0% !important;
+}
+
+.cNZ3wORgnf1KSNhI2eE2M svg path, .cNZ3wORgnf1KSNhI2eE2M svg circle{
+    fill: var(--Maize);
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph{
+    color: var(--DisabledText1);
+}
+
+
+/* Right Click Menu */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl{
+    background: var(--LightGreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play{
+    text-transform: none;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl:hover{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize);
+}
+
+.DesktopUI .contextMenuItem:hover, .DesktopUI .contextMenuItem._33FxRe6f78NvAxdIjNf7Sn{
+    color: var(--Maize);
+    background: transparent;
+}
+
+._3km84Vscc0uS91f0RN_30C{
+    border: var(--Inset);
+    background: var(--GreenBG);
+}
+/* Remove the Home / Collections row and its occupied space. */
+._2TKEazUUS3TlniZfpc8OOe {
+    display: none !important;
+}
