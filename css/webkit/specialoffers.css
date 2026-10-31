@@ -1,0 +1,56 @@
+.messagelist_MarketingMessagePage .messagelist_MessageListPage{
+    background: var(--DarkGreenBG);
+    border: var(--Inset);
+}
+
+.messagelist_MarketingMessagePage .image_GameImage.image_IsBlur{
+    display: none;
+}
+
+.messagelist_MarketingMessagePage .image_GameImage{
+    box-shadow: none;
+}
+
+.messagelist_MarketingMessagePage .image_Btn{
+    text-transform: none;
+    border: var(--Outset);
+    border-radius: 0%;
+    background: var(--GreenBG);
+    color: var(--OffWhite);
+    transition: none;
+}
+
+.messagelist_MarketingMessagePage .image_Btn:hover{
+    box-shadow: none;
+    background: var(--GreenBG);
+    color: var(--Maize);
+}
+
+.messagelist_MarketingMessagePage .image_Btn:active{
+    border: var(--Inset);
+    background: var(--DarkGreenBG);
+}
+
+.messagelist_MarketingMessagePage .image_MessagePriceCtn .StoreSalePriceWidgetCon{
+    border: var(--Outset);
+    background: var(--GreenBG) !important;
+}
+
+.messagelist_MarketingMessagePage ._2fpFvkG2gjtlAHB3ZxS-_7{
+    background: var(--MaizeBG) !important;
+    color: var(--OffWhite) !important;
+}
+
+.messagelist_MarketingMessagePage ._3GLeQSpjtTPdHW4J8KwCSa .Wh0L8EnwsPV_8VAu8TOYr{
+    color: var(--Maize) !important;
+    text-shadow: none !important;
+}
+
+.messagelist_MarketingMessagePage ._1EKGZBnKFWOr3RqVdnLMRN{
+    color: var(--DisabledText1) !important;
+}
+
+.messagelist_MarketingMessagePage ._1EKGZBnKFWOr3RqVdnLMRN::before{
+    border-bottom: 1px solid currentColor !important;
+    box-shadow: none !important;
+}
