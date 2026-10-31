@@ -1,0 +1,321 @@
+
+._2CmrnGY-Amtd83ScJkFvx2{
+    display: none;
+}
+
+._3Z7VQ1IMk4E3HsHvrkLNgo{
+    background-color: var(--GreenBG) !important;
+    flex-direction: row !important;
+    box-shadow: none !important;
+    border: none;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+._3Z7VQ1IMk4E3HsHvrkLNgo > div{
+    padding: 0;
+    margin: 0;
+}
+
+/* RootMenu Buttons ======================================================================= */
+._2UyOBeiSdBayaFdRa39N2O{
+    color: var(--OffWhite);
+    padding: 0% 4px;
+    height: min-content;
+}
+
+/* Navigation Buttons ======================================================================= */
+
+._19axKcqYRuaJ8vdYKYmtTQ{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+    text-decoration: none !important;
+    font-weight: normal !important;
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+    text-transform: none;
+    color: var(--OffWhite) !important;
+}
+
+._2D64jIEK7wpUR_NlObDW76 ._2Lu3d-5qLmW4i19ysTt2jT{
+    padding: 5px;
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ{
+    color: var(--Maize) !important;
+    border: var(--Inset);
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ::after{
+    display: none !important;
+}
+
+/* Dropdowns ======================================================================= */
+._2jXHP0742MyApMUVUM8IFn{
+    background-color: var(--GreenBG);
+}
+
+._2jXHP0742MyApMUVUM8IFn:hover{
+    background-color: var(--GreenBG) !important;
+}
+
+/* Account & News & More ======================================================================= */
+._3cykd-VfN_xBxf3Qxriccm{
+    position: static;
+    align-items: start;
+}
+
+._3LKQ3S_yqrebeNLF6aeiog, ._3lRfTo8Wo3phXfE1DvK6QW, ._5wILZhsLODVwGfcJ0hKmJ, .RtSv39ZoBOySnb8XQ5hJf, .Utdt7JrpIm5JlpQmqyj1v, .Utdt7JrpIm5JlpQmqyj1v.Playing{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    border-radius: 0%;
+    padding: 5px;
+    margin: 0 5px 3px !important;
+    position: relative;
+    width: 17px !important;
+    min-width: 17px !important;
+    height: 17px !important;
+    min-height: 17px !important;
+    color: var(--OffWhite) !important;
+}
+
+.RtSv39ZoBOySnb8XQ5hJf svg{
+    color: inherit !important;
+}
+
+._3LKQ3S_yqrebeNLF6aeiog:hover, ._3lRfTo8Wo3phXfE1DvK6QW:hover, ._5wILZhsLODVwGfcJ0hKmJ:hover, .RtSv39ZoBOySnb8XQ5hJf:hover{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    color: #fff !important;
+}
+
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd, .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover{
+    color: var(--Maize) !important;
+}
+
+.Utdt7JrpIm5JlpQmqyj1v.Playing svg.Icon{
+    color: var(--Maize);
+}
+
+.Utdt7JrpIm5JlpQmqyj1v:active{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+.Utdt7JrpIm5JlpQmqyj1v:hover{
+    background: transparent;
+}
+
+._3LKQ3S_yqrebeNLF6aeiog svg{
+    position: static !important;
+    top: auto !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC{
+    background-color: var(--GreenBG) !important;
+    border: var(--Outset);
+    height: 27px !important;
+    min-height: 27px !important;
+}
+
+._1yIzy56YfJIliF6ykwhP2r, ._3yD46y5pd3zOGR7CzKs0mC ._3x51wbt5DYyWC8JKwQ51ir{
+    display: none !important;
+    background: transparent !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC.online div{
+    color: var(--OffWhite);
+    font-weight: 100;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame div{
+    color: var(--Maize);
+    font-weight: 100;
+}
+
+.HoGkIKTQnkTEFGjqO-GMl ._11phBiBefcVQdzrnrezkKa, .HoGkIKTQnkTEFGjqO-GMl ._2jphjrSifC6orDT4g_7Wd{
+    color: var(--Maize);
+}
+
+._338kJp62vHY5iDbsraaiKD{
+    box-shadow: none;
+    border: none;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K{
+    background: var(--GreenBG);
+    box-shadow: none;
+    color: var(--Label);
+    border-bottom: var(--Outset);
+}
+
+._1bGewp3tfzqAF6fVTFFUOz ._2m_orETo6AghzAnc0sISCt ._3izqEKa-zuPIrUDSm1bRvf, ._1bGewp3tfzqAF6fVTFFUOz ._2m_orETo6AghzAnc0sISCt ._2m_orETo6AghzAnc0sISCt .MZPxEZcxAGtPDf1NYtouS{
+    color: inherit !important;
+    transition: none;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz ._2m_orETo6AghzAnc0sISCt > div{
+    transition: none !important;
+}
+
+._1bGewp3tfzqAF6fVTFFUOz ._2m_orETo6AghzAnc0sISCt > div:hover{
+    background-color: transparent !important;
+    color: var(--Maize) !important;
+}
+
+/* Notifications Mailbox =================================================================*/
+
+._1UgM1Pm8SbTWX7_2f-crGt{
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    color: var(--OffWhite);
+    padding: 2px 2px 4px !important;
+}
+
+.MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva{
+    transition: none;
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0;
+}
+
+.MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva:hover{
+    transition: none;
+    background-color: var(--GreenBG);
+    color: var(--Maize);
+}
+
+.MCa4RMSvWJwwWjcZP2wTT ._3zQLPuC3M-NPNa1tVda9Dz{
+    font-weight: normal;
+}
+
+.p2CKe5nuC_8YgWL_lZbNn .cam5nVZiJHP17RZlbXzmE{
+    color: var(--Label);
+}
+
+._3sTMvhkGXqBzwhsP2-IA5P ._1tsEfG-JyQFR7Un1HPOt98{
+    background: var(--GreenBG) !important;
+    border: var(--Outset);
+}
+
+._3sTMvhkGXqBzwhsP2-IA5P ._1tsEfG-JyQFR7Un1HPOt98:active, .MCa4RMSvWJwwWjcZP2wTT ._1oERP7bVictkby2hP4BBva:active{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+._3sTMvhkGXqBzwhsP2-IA5P ._2caCrhFIrYqRuguK-cB6be{
+    background: var(--GreenBG);
+    border-radius: 0%;
+    border: var(--Outset);
+}
+
+._2KGzW7VOt9p5H2NTkCwy5A{
+    filter: brightness(100%) blur(0px);
+    border: var(--Outset);
+}
+
+._2KGzW7VOt9p5H2NTkCwy5A + img{
+    display: none;
+}
+
+._3sTMvhkGXqBzwhsP2-IA5P ._1tsEfG-JyQFR7Un1HPOt98 ._39ZAWlQf4pS3jH004cFreS, ._3sTMvhkGXqBzwhsP2-IA5P ._1tsEfG-JyQFR7Un1HPOt98 ._2XcN2JborbQvIZhYakQnO6{
+    color: var(--Label);
+}
+
+._3sTMvhkGXqBzwhsP2-IA5P ._1tsEfG-JyQFR7Un1HPOt98 ._39ZAWlQf4pS3jH004cFreS > div{
+    color: inherit !important;
+}
+
+/* Browser container =================================================================*/
+
+._1bGewp3tfzqAF6fVTFFUOz ._29p1jfvZ-VdlXK24_7UGsK{
+    background: var(--DarkGreenBG);
+    outline: 1px inset var(--BorderBright);
+}
+
+/* Root menu: only "Steam" visible; View/Friends/Games/Help slide out on hover or while a menu is open */
+.RootMenuBar > .RootMenuButton:not(:first-child){
+    max-width: 0 !important;
+    opacity: 0;
+    overflow: hidden;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    transition: max-width .2s ease, opacity .15s ease, padding .2s ease;
+}
+
+.RootMenuBar:hover > .RootMenuButton:not(:first-child),
+.RootMenuBar:focus-within > .RootMenuButton:not(:first-child),
+.RootMenuBar:has(._1gqEjB5QsKT_NftD1dEsdZ) > .RootMenuButton:not(:first-child){
+    max-width: 120px !important;
+    opacity: 1;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+/* Remove the News (announcements) and Big Picture Mode buttons */
+.TitleBarControls > :has(> .AnnouncementsButton),
+.TitleBarControls > :has(> .GamepadUIToggle),
+.AnnouncementsButton,
+.GamepadUIToggle{
+    display: none !important;
+}
+/* Store/Library/Community/profile tabs sit right after the Steam menu and slide over when it expands */
+.TopBar{
+    align-items: center;
+}
+.TopBar > .TitleBar{
+    display: contents !important;
+}
+.TopBar .RootMenuBar{ order: 0; }
+.TopBar > .SuperNavBar{ order: 1; margin-left: 8px; }
+.TopBar .DragArea{ order: 2; flex: 1 1 auto !important; }
+.TopBar .TitleBarControls{ order: 3; }
+.TopBar .WindowControls{ order: 4; }
+/* Keep the window draggable after rearranging the top bar */
+.TopBar{
+    -webkit-app-region: drag;
+}
+.TopBar .DragArea{
+    align-self: stretch !important;
+    height: auto !important;
+    min-height: 32px;
+    -webkit-app-region: drag;
+}
+/* Steam menu: keep the logo and hide the text label. */
+.RootMenuBar > .RootMenuButton:first-child .bSKGlAJG2UVWTsntEJY2v {
+    font-size: 0 !important;
+    gap: 0 !important;
+}
+
+/* Account button: slide out the name and balance using the Steam menu timing.
+   Clicking the avatar still opens Steam's account menu. */
+._3yD46y5pd3zOGR7CzKs0mC {
+    gap: 0 !important;
+    padding-right: 0 !important;
+    transition: padding .2s ease;
+    -webkit-app-region: no-drag;
+}
+._3yD46y5pd3zOGR7CzKs0mC > :first-child {
+    flex-shrink: 0;
+}
+._3yD46y5pd3zOGR7CzKs0mC > div:nth-child(2),
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    display: block !important;
+    min-width: 0 !important;
+    max-width: 0 !important;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 0 !important;
+    transition: max-width .2s ease, opacity .15s ease, margin .2s ease;
+}
+._3yD46y5pd3zOGR7CzKs0mC:is(:hover, :focus-within) {
+    padding-right: 8px !important;
+}
+._3yD46y5pd3zOGR7CzKs0mC:is(:hover, :focus-within) > div:nth-child(2),
+._3yD46y5pd3zOGR7CzKs0mC:is(:hover, :focus-within) ._2jphjrSifC6orDT4g_7Wd {
+    max-width: 200px !important;
+    opacity: 1;
+    margin-left: 4px !important;
+}

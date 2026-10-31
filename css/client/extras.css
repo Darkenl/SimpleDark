@@ -1,0 +1,45 @@
+/* Window controls (minimize / maximize / close): flat, no boxes */
+.windowControlButton, .title-area-icon{
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: var(--Label) !important;
+}
+
+.windowControlButton:hover, .title-area-icon:hover{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize) !important;
+}
+
+.closeButton.windowControlButton:hover{
+    background: #c42b1c !important;
+    color: #ffffff !important;
+}
+
+/* Remove back / forward arrows */
+.SuperNav > .Arrow{
+    display: none !important;
+}
+
+/* Bottom bar: Add a Game, Downloads and Friends & Chat grouped in the middle */
+.BottomBar{
+    justify-content: center !important;
+    gap: 6px;
+}
+
+.BottomBar .DownloadStatus{
+    flex: 0 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+}
+
+.BottomBar .DownloadStatusContent{
+    min-width: 260px;
+}
+
+.BottomBar .window_resize_grip{
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,83 @@
+._3vCzSrrXZzZjVJFZNg9SGu{
+    background: transparent;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+._1TdaAqMFadi0UTqilrkelR, ._2foCkpRXhqq0UGVE50BWqj, .ip-YZhijAMZcuRoXBGiye{
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    padding: 3px;
+    gap: 0;
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k, .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y{
+    color: var(--OffWhite) !important;
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k:hover, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k:hover, .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y:hover{
+    color: var(--Maize) !important;
+}
+
+._1TdaAqMFadi0UTqilrkelR:active, ._2foCkpRXhqq0UGVE50BWqj:active, .ip-YZhijAMZcuRoXBGiye:active{
+    background-color: var(--DarkGreenBG);
+    border: var(--Inset);
+}
+
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F, ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F, .ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F{
+    display: none !important;
+}
+
+._2VtAqT03BpBsVdmxwptn9D ._2_FomluqqgQ2Hx8ON3AVep .yZ55NhARZGx1Awk2qs8pS{
+    --color-progress-bar-foreground: var(--Maize) !important;
+    border: var(--Inset);
+    background-color: var(--DarkGreenBG);
+}
+
+._1sCy-pm412Smb0wJx0W-4{
+    color: var(--Maize) !important;
+}
+
+
+/* TODO: Remove when steam family comes out */
+._3GaHEQJW9B1Rlt0Ddz3E8D{
+    width: max-content;
+    background-color: var(--MaizeBG);
+    right: 23px;
+    bottom: 71px;
+    position: fixed;
+}
+/* Slim bottom bar: no outlines, no empty space above/below */
+.ContentFrame{
+    margin-bottom: 0 !important;
+}
+
+.BottomBarContainer, .BottomBar{
+    height: 30px !important;
+    min-height: 0 !important;
+    max-height: 30px !important;
+    flex: 0 0 30px !important;
+}
+
+.BottomBar{
+    box-sizing: border-box !important;
+    padding: 3px 0 !important;
+    align-items: center !important;
+}
+
+.BottomBar .AddGameButton, .BottomBar .FriendsButton, .BottomBar .DownloadStatusContent,
+.BottomBar .DownloadStatusContent *{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.BottomBar .AddGameButton, .BottomBar .FriendsButton, .BottomBar .DownloadStatusContent{
+    background: transparent !important;
+}
+
+.BottomBar .AddGameButton:hover, .BottomBar .FriendsButton:hover, .BottomBar .DownloadStatusContent:hover,
+.BottomBar .AddGameButton:active, .BottomBar .FriendsButton:active, .BottomBar .DownloadStatusContent:active{
+    background: var(--LightGreenBG) !important;
+    border: none !important;
+}

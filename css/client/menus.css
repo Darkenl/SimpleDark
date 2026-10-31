@@ -1,0 +1,92 @@
+/* Popup menus: Steam/View/... root menus, account menu, store/library/community supernav, context menus */
+.contextMenu, .contextMenuContents, .MenuPopup{
+    background: var(--GreenBG) !important;
+    border: 1px solid var(--LightGreenBG) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .5) !important;
+    color: var(--OffWhite) !important;
+}
+
+.contextMenuContents, .MenuPopup{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.MenuItem, .contextMenuItem{
+    color: var(--OffWhite) !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+.MenuItem:hover, .contextMenuItem:hover,
+.MenuItem.active, .contextMenuItem.active,
+.MenuItem:focus, .contextMenuItem:focus{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize) !important;
+}
+
+.MenuItem.Separator, hr.MenuItem{
+    border: none !important;
+    border-top: 1px solid var(--LightGreenBG) !important;
+    background: transparent !important;
+}
+
+/* Account menu highlights (account name, wallet) */
+.AccountMenuPopup .AccountName, .AccountMenuPopup .WalletBalance{
+    color: var(--Label) !important;
+}
+
+/* Notifications menu */
+.NotificationsMenu{
+    background: var(--DarkGreenBG) !important;
+    border: 1px solid var(--LightGreenBG) !important;
+    border-radius: 0 !important;
+    color: var(--OffWhite) !important;
+}
+
+.NotificationsMenu .AllNotificationsTitle{
+    color: var(--OffWhite) !important;
+}
+
+.NotificationsMenu .AllNotificationsButton{
+    background: var(--GreenBG) !important;
+    border: 1px solid var(--LightGreenBG) !important;
+    border-radius: 0 !important;
+    color: var(--OffWhite) !important;
+}
+
+.NotificationsMenu .AllNotificationsButton:hover{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize) !important;
+}
+
+.NotificationsMenu .PinnedTemplateDesktop{
+    background: var(--GreenBG) !important;
+    border-radius: 0 !important;
+}
+
+.NotificationsMenu .PinnedBody, .NotificationsMenu .EmptyNotificationsBody{
+    color: var(--Label) !important;
+}
+
+.NotificationsMenu .SteamNotificationWrapper,
+.NotificationsMenu .SteamNotificationWrapper > div{
+    background: var(--GreenBG) !important;
+    border-radius: 0 !important;
+}
+
+.NotificationsMenu .SteamNotificationWrapper:hover,
+.NotificationsMenu .SteamNotificationWrapper:hover > div{
+    background: var(--LightGreenBG) !important;
+}
+
+/* Compact popup menus, including native game-links and account menus. */
+.contextMenuContents { padding: 2px !important; }
+.MenuItem:not(.Separator), .contextMenuItem:not(.Separator) {
+    padding: 3px 8px !important;
+    min-height: 22px !important;
+    box-sizing: border-box;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+.MenuItem.Separator, .contextMenuItem.Separator { margin: 3px 0 !important; }

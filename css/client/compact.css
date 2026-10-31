@@ -1,0 +1,309 @@
+/* Compact controls for SimpleDark. Imported after the base theme. */
+
+/* Tighter Store / Library / Community / profile tabs. */
+.TopBar > .SuperNavBar {
+    margin-left: 3px !important;
+    gap: 2px !important;
+}
+.TopBar ._2Lu3d-5qLmW4i19ysTt2jT {
+    padding: 2px !important;
+    margin: 0 !important;
+}
+.TopBar ._19axKcqYRuaJ8vdYKYmtTQ {
+    padding: 4px 6px !important;
+    line-height: 16px !important;
+}
+
+/* Scale the virtualized list as a whole so row positions and hitboxes agree.
+   24px native rows become approximately 22px, with 16px visible icons. */
+._1ijTaXJJA5YWl_fW2IxcaT {
+    zoom: 0.9;
+    min-height: 0 !important;
+}
+._1ijTaXJJA5YWl_fW2IxcaT ._2-O4ZG0KrnSrzISHBKctFQ {
+    font-size: 14px !important;
+}
+._1ijTaXJJA5YWl_fW2IxcaT .ga1hyw11cdBVodrCAidPF {
+    width: 18px !important;
+    height: 18px !important;
+    margin-inline-end: 4px !important;
+}
+
+/* Match the sidebar behind the collapsed search to the game-list background.
+   Steam's default blue gradient otherwise shows through across the whole row. */
+._3x1HklzyDs4TEjACrRO2tB {
+    background: var(--DarkGreenBG, #212121) !important;
+    box-shadow: none !important;
+}
+
+/* The native search input doubles as the clickable magnifying-glass button.
+   Keep it expanded while focused, nonempty, or showing advanced filters. */
+._20QAC4WMXm8qFE8waUT5oo {
+    width: calc(100% - 12px) !important;
+    max-width: 30px !important;
+    min-height: 28px !important;
+    padding: 0 !important;
+    margin: 2px 6px !important;
+    align-self: flex-start;
+    box-sizing: border-box;
+    transition: none !important;
+}
+._20QAC4WMXm8qFE8waUT5oo:is(:focus-within, :has(input:not(:placeholder-shown)), ._3qwXPrhpZYqVbJxrZDrvjy, :has(._1v65xCmMo53Ju6vCXk4U0_)) {
+    max-width: 100% !important;
+}
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {
+    min-width: 0 !important;
+    min-height: 28px !important;
+    margin-right: 0 !important;
+}
+._20QAC4WMXm8qFE8waUT5oo input.DialogTextInputBase {
+    height: 28px !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+    padding-inline-start: 28px !important;
+    padding-inline-end: 22px !important;
+    border: none !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='8' cy='8' r='5.5' fill='none' stroke='%23cccccc' stroke-width='1.7'/%3E%3Cpath d='m12 12 5 5' stroke='%23cccccc' stroke-width='1.7'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-size: 16px 16px !important;
+    background-position: 7px center !important;
+}
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
+    height: 28px !important;
+}
+._20QAC4WMXm8qFE8waUT5oo ._1TxHdzOt3OD9ikR3xIseKe {
+    height: 28px !important;
+    box-sizing: border-box;
+}
+._20QAC4WMXm8qFE8waUT5oo:not(:is(:focus-within, :has(input:not(:placeholder-shown)), ._3qwXPrhpZYqVbJxrZDrvjy, :has(._1v65xCmMo53Ju6vCXk4U0_))) .vCCmYvn9yQ_V8CpKupllU,
+._20QAC4WMXm8qFE8waUT5oo:not(:is(:focus-within, :has(input:not(:placeholder-shown)), ._3qwXPrhpZYqVbJxrZDrvjy, :has(._1v65xCmMo53Ju6vCXk4U0_))) .DialogInput_ClearAction {
+    display: none !important;
+}
+._20QAC4WMXm8qFE8waUT5oo:not(:is(:focus-within, :has(input:not(:placeholder-shown)), ._3qwXPrhpZYqVbJxrZDrvjy, :has(._1v65xCmMo53Ju6vCXk4U0_))) input {
+    cursor: pointer;
+    color: transparent !important;
+}
+
+/* Native footer icons retain the existing click actions. */
+.BottomBarContainer, .BottomBar {
+    height: 26px !important;
+    max-height: 26px !important;
+    flex: 0 0 26px !important;
+}
+.BottomBar {
+    padding: 1px 0 !important;
+    gap: 4px !important;
+}
+.BottomBar .AddGameButton, .BottomBar .FriendsButton {
+    width: 26px !important;
+    height: 24px !important;
+    min-width: 26px !important;
+    padding: 4px !important;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 0 !important;
+}
+.BottomBar .AddGameButton ._3OhUxFVlQYr9W5ThxstR8k,
+.BottomBar .FriendsButton ._3OhUxFVlQYr9W5ThxstR8k {
+    display: none !important;
+}
+.BottomBar .AddGameButton ._1KrJ3sFAqPBN9mfpaNTU5F,
+.BottomBar .FriendsButton ._1KrJ3sFAqPBN9mfpaNTU5F {
+    display: grid !important;
+    width: 16px !important;
+    height: 16px !important;
+    color: var(--OffWhite) !important;
+}
+.BottomBar .DownloadStatusContent {
+    min-width: 0 !important;
+    padding: 2px 6px !important;
+}
+/* Steam renders DetailedDownloadProgress for the current transfer, and Queue
+   for its idle/completed summary. Remove the idle summary and its empty gap. */
+.BottomBar .DownloadStatus:not(:has(._2VtAqT03BpBsVdmxwptn9D)) {
+    display: none !important;
+}
+.BottomBar .DetailedDownloadProgress {
+    min-height: 20px !important;
+}
+
+/* Hide Library news and the three game-page utility buttons. */
+.rvYRfhjWoi57GShuRcAwP,
+.LibraryHomeWhatsNew,
+.AppDetailsMain ._3qDWQGB0rtwM3qpXTb11Q-,
+.AppDetailsMain ._2v1XDHrL4pTW4qCXaYUPG6,
+.AppDetailsMain ._21hXW2oDD7zvNsoOaW7Yob {
+    display: none !important;
+}
+
+/* Classic Library Home uses UpdatesContainer, not LibraryHomeWhatsNew. */
+._2gSXCB6PbOlMxslr8hm6dm ._17uEBe5Ri8TMsnfELvs8-N,
+._2gSXCB6PbOlMxslr8hm6dm .UpdatesContainer,
+._2gSXCB6PbOlMxslr8hm6dm ._1-skwOMFU54o8vsHS7-ZDu {
+    display: none !important;
+}
+
+/* Match the visible tab centers to the Steam logo; compensate for the nav wrapper offset. */
+.TopBar {
+    align-items: center !important;
+}
+.TopBar > .SuperNavBar {
+    align-self: center !important;
+    position: relative !important;
+    top: 4px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 3px !important;
+}
+
+/* Narrow game list; keep native row selection and scrolling. */
+._9sPoVBFyE_vE87mnZJ5aB {
+    width: 190px !important;
+    min-width: 190px !important;
+    max-width: 190px !important;
+    flex: 0 0 190px !important;
+}
+._1ijTaXJJA5YWl_fW2IxcaT .-BsLCHlCHg50lwvxnBWt1 {
+    min-width: 0 !important;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+._1ijTaXJJA5YWl_fW2IxcaT ._2SXJM0PeFEi3gbC7V3S5pE {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* Zoom the shelf body containing its layout measurement, not individual covers. */
+._3Sb2o_mQ30IDRh0C72QUUu ._3L4iQSCoQJMSKZXsFOW8A2,
+._2sNr7PFYcJZWNkEMCDVVPR {
+    zoom: .85;
+}
+/* Route every game link into Steam's native overflow menu. Keep the hidden
+   links measurable so its layout code can populate the complete menu. */
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj .DgVQapkBmhAW6oPY5rPZo {
+    width: 0 !important;
+    min-width: 0 !important;
+    max-width: 0 !important;
+    height: 0 !important;
+    flex: 0 0 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj ._1bIMOmWaxKrMdVMWU21ku {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: auto !important;
+    min-width: 58px !important;
+    height: 24px !important;
+    margin: 0 !important;
+    padding: 2px 8px !important;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: var(--OffWhite);
+}
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj ._1bIMOmWaxKrMdVMWU21ku svg {
+    display: none !important;
+}
+.AppDetailsOverviewPanel ._3-V8vjmrwuJM6Ws3tsjFJj ._1bIMOmWaxKrMdVMWU21ku::after {
+    content: "Links \25be";
+}
+
+/* Small icon tabs; existing text remains available to assistive technology. */
+.TopBar ._19axKcqYRuaJ8vdYKYmtTQ[data-sd-nav-icon] {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    padding: 5px !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    gap: 0 !important;
+}
+.TopBar ._19axKcqYRuaJ8vdYKYmtTQ[data-sd-nav-icon]::before {
+    content: "";
+    display: block;
+    flex: 0 0 14px;
+    width: 14px;
+    height: 14px;
+    background-color: currentColor;
+    -webkit-mask: var(--sd-nav-icon) center / contain no-repeat;
+    mask: var(--sd-nav-icon) center / contain no-repeat;
+}
+[data-sd-nav-icon="store"] { --sd-nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.6%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M4%206h12l1%2011H3L4%206Z%22%2F%3E%3Cpath%20d%3D%22M7%207V5a3%203%200%200%201%206%200v2%22%2F%3E%3C%2Fsvg%3E"); }
+[data-sd-nav-icon="library"] { --sd-nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2022%2020%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.6%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M3%203h4v14H3zM9%203h3v14H9zM14%204l3-1%203%2013-3%201z%22%2F%3E%3C%2Fsvg%3E"); }
+[data-sd-nav-icon="community"] { --sd-nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.6%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%226%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M1%2017v-2a6%206%200%200%201%2012%200v2M14%203a3%203%200%200%201%200%206M15%2011a5%205%200%200%201%204%205v1%22%2F%3E%3C%2Fsvg%3E"); }
+[data-sd-nav-icon="profile"] { --sd-nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.6%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22round%22%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%226%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M4%2018v-2a6%206%200%200%201%2012%200v2%22%2F%3E%3C%2Fsvg%3E"); }
+
+/* Slim the outer side gutters and the library divider. */
+._3mz8wQ6Q44B8P7pzPP4Iyw {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+._1rDh5rXSFZJOqCa4UpnI4z {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+._276E6ijBpjMA2_iTxNhhjc {
+    width: 4px !important;
+    min-width: 4px !important;
+}
+._9sPoVBFyE_vE87mnZJ5aB ._1ZS_xta5HMXzR8JgxDH6n7 {
+    padding-inline-start: 3px !important;
+}
+._9sPoVBFyE_vE87mnZJ5aB ._20QAC4WMXm8qFE8waUT5oo {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    width: calc(100% - 6px) !important;
+}
+
+/* Thinner single-row title bar, with vertically centered icons. */
+.TopBar {
+    height: 36px !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+    box-sizing: border-box !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    align-items: center !important;
+}
+.TopBar > .SuperNavBar {
+    height: 28px !important;
+    min-height: 28px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    top: 0 !important;
+    align-items: center !important;
+}
+.TopBar ._2Lu3d-5qLmW4i19ysTt2jT {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.TopBar ._19axKcqYRuaJ8vdYKYmtTQ[data-sd-nav-icon] {
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    padding: 4px !important;
+}
+.TopBar .RootMenuBar {
+    align-self: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    align-items: center !important;
+}
+.TopBar .DragArea {
+    min-height: 0 !important;
+}
+.TopBar .TitleBarControls {
+    align-self: center !important;
+    align-items: center !important;
+}
+.TopBar .WindowControls {
+    align-self: center !important;
+    height: 28px !important;
+}

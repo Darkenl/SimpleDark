@@ -1,0 +1,234 @@
+[class^="_3mz8wQ6Q44B8P7pzPP4Iyw"]{
+    border: var(--Outset);
+    padding: 0px 15px;
+    background-color: var(--GreenBG);
+}
+
+[class^="_1rDh5rXSFZJOqCa4UpnI4z"]{
+    padding: 5px !important;
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    margin-bottom: 15px;
+}
+
+[class^="_1ENHEsrSLcTRtPQFl1F-wL"]{
+    border: none !important;
+}
+
+._29b2a87G5A5NZeYh5Kgvea{
+    box-shadow: none;
+    background-color: var(--LightGreenBG);
+    border-radius: 0%;
+    border: var(--Outset);
+}
+
+/* TODO: Figure out where these even are, I forgot. Then switch to the HL1 radio buttons */
+input[type="radio"]{
+    appearance: none;
+    margin: 0;
+    color: var(--Maize);
+    height: 13px;
+    width: 13px;
+    border: var(--Inset);
+}
+
+input[type="radio"]::before{
+    content: "";
+    height: 7px;
+    width: 7px;
+    margin: 2px 0 0 2px;
+    display: block;
+    opacity: 0;
+    background-color: var(--Maize);
+}
+
+input[type="radio"]:checked::before{
+    opacity: 1;
+}
+
+input[type="radio"]:focus{
+    outline: transparent;
+}
+
+.DialogBodyText{
+    color: var(--OffWhite);
+}
+
+.DialogCheckbox{
+    box-shadow: none;
+    margin: 0;
+    border-radius: 0%;
+    background: transparent !important;
+    background-size: contain !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TSkUqBe0g4pChOtlFRRxLFYtgobQVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi7OCk6CIl/i8ptIjx4Lgf7+497t4BQqvGVDMQB1TNMjLJhJgvrIrBV/gRQBgihiRm6qnsYg6e4+sePr7exXiW97k/x6BSNBngE4njTDcs4g3i2U1L57xPHGEVSSE+J5406ILEj1yXXX7jXHZY4JkRI5eZJ44Qi+UelnuYVQyVeIY4qqga5Qt5lxXOW5zVWoN17slfGCpqK1mu0xxDEktIIU0dyWigihosxGjVSDGRof2Eh3/U8afJJZOrCkaOBdShQnL84H/wu1uzND3lJoUSQN+LbX+MA8FdoN207e9j226fAP5n4Err+ustYO6T9GZXix4B4W3g4rqryXvA5Q4w8qRLhuRIfppCqQS8n9E3FYDhW2Bgze2ts4/TByBHXS3fAAeHwESZstc93t3f29u/Zzr9/QBxkHKmIgHJ5AAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+gDBA8nIBT2C1gAAABaSURBVDjLY2AY0YARmVOQEZ/JwMAwjQxzsibMWDgdxmFBk5yGroAQQHLIdFwK/pPjXXR9TLQI01FDRw0dNRQtLzOQmPdRAHqBksXAwDCtICOe1JIqi2EUwAAAwMkWMIiZzjgAAAAASUVORK5CYII=) !important;
+}
+
+.DialogCheckbox.Active{
+    box-shadow: none;
+    border-radius: 0%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TSkUqBe0g4pChOtlFRRxLFYtgobQVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi7OCk6CIl/i8ptIjx4Lgf7+497t4BQqvGVDMQB1TNMjLJhJgvrIrBV/gRQBgihiRm6qnsYg6e4+sePr7exXiW97k/x6BSNBngE4njTDcs4g3i2U1L57xPHGEVSSE+J5406ILEj1yXXX7jXHZY4JkRI5eZJ44Qi+UelnuYVQyVeIY4qqga5Qt5lxXOW5zVWoN17slfGCpqK1mu0xxDEktIIU0dyWigihosxGjVSDGRof2Eh3/U8afJJZOrCkaOBdShQnL84H/wu1uzND3lJoUSQN+LbX+MA8FdoN207e9j226fAP5n4Err+ustYO6T9GZXix4B4W3g4rqryXvA5Q4w8qRLhuRIfppCqQS8n9E3FYDhW2Bgze2ts4/TByBHXS3fAAeHwESZstc93t3f29u/Zzr9/QBxkHKmIgHJ5AAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+gDBA8pLxrKO0cAAAEuSURBVDjL7ZSxdYMwEIaFpPdAomIFVsAjwApu3Tqu3GWGdKlw2rReAUYwK7ACFZJ4TyelQXmEZ2FMyuS6k07f3f2SDqE/bcHUOR8PLwihcgPn9P7xeXEOnW2W84BHNink4guwW9qdn8O/0W4Yhtd765ugxpik7/tKa52vhmqtc6115gNKKSsAyH1JvZVKKas5GABSIcQNALKlTrxQa22ilLoCQOqAUsrKGJO6mDAM357W1BiTKqWuWutcCHFzwCAIOs55QSmtV0MppTUhpBkrzIQQlbU2cUDGmBe4WCljrHDg72CMW875jlLabNIUY9xFUbTHGLcOOCZqHz25RU0JIW0URXtCSM05360B3oWOf3mqbxPHcYEx7hb+/s87mU8bhFB5Ph6enVQn9G/OvgCMcoYwTsJ1lAAAAABJRU5ErkJggg==) !important;
+}
+
+.DialogCheckbox svg{
+    visibility: hidden;
+}
+
+.DialogButton{
+    box-shadow: none !important;
+    background: var(--GreenBG) !important;
+    border-radius: 0% !important;
+    border: var(--Outset) !important;
+    color: var(--OffWhite);
+    transition: none !important;
+}
+
+.DialogButton::before{
+    box-shadow: none;
+    display: none !important;
+}
+
+.DialogButton:hover{
+    color: var(--Maize) !important;
+}
+
+.DialogButton:active{
+    border: var(--Inset) !important;
+    background: var(--DarkGreenBG) !important;
+}
+
+.DialogButton.disabled, .DialogButton.Disabled, .DialogButton.disabled:hover, .DialogButton.Disabled:hover{
+    color: var(--DisabledText1) !important;
+    background-color: var(--DarkGreenBG) !important;
+}
+
+.DialogInput, .DialogTextInputBase{
+    background-color: var(--DarkGreenBG) !important;
+    box-shadow: none !important;
+    border-radius: 0% !important;
+    text-transform: none !important;
+    border: var(--Inset);
+}
+
+.DialogInput:hover, .DialogInput:focus{
+    background-color: var(--DarkGreenBG) !important;
+}
+
+._DialogInputContainer{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset) !important;
+    border-radius: 0%;
+    color: var(--OffWhite);
+    box-shadow: none !important;
+}
+
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu{
+    fill: var(--OffWhite);
+}
+
+._1tiuYeMmTc9DMG4mhgaQ5w._DialogInputContainer{
+    background: var(--GreenBG) !important;
+    border: var(--Outset) !important;
+}
+
+._1tiuYeMmTc9DMG4mhgaQ5w._DialogInputContainer ._1R-DVEa2yqX0no8BYLtn9N:hover{
+    background: transparent;
+    color: var(--Maize);
+}
+
+._1JPcbbojrgNM_FTODskCRa{
+    color: var(--Label);
+}
+
+.DialogLabel{
+    color: var(--Label);
+    text-transform: none;
+}
+
+.DialogLabel.w_ZWyQas4jedC6a1AHA5Z{
+    color: var(--Maize);
+}
+
+.ModalPosition_Content{
+    box-shadow: none !important;
+}
+
+.ModalPosition_TopBar{
+    display: none;
+}
+
+.DesktopUI .DialogHeader, .DesktopUI .DialogBody{
+    color: var(--OffWhite);
+}
+
+/* Windows buttons =================================================================*/
+.DesktopUI .window-controls > div, .ModalPosition_Dismiss .closeButton{
+    background: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    height: 20px;
+    width: 20px;
+    transition: none !important; 
+    margin: 0 3px;
+}
+
+.DesktopUI .title-area-icon-inner{
+    transition: none;
+}
+
+.DesktopUI .window-controls > div:hover, .ModalPosition_Dismiss .closeButton:hover{
+    background: var(--GreenBG) !important;
+    transition: none !important;
+}
+
+.DesktopUI .window-controls > div:active, .ModalPosition_Dismiss .closeButton:active{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+.DesktopUI .window-controls > div [class*="SVGIcon"] line, .DesktopUI .window-controls > div [class*="SVGIcon"] rect, .DesktopUI .window-controls > div [class*="SVGIcon"] polyline,  .ModalPosition_Dismiss .closeButton line{
+    stroke: var(--OffWhite) !important;
+    transition: none;
+}
+
+.DesktopUI .window-controls > div:hover [class*="SVGIcon"] line, .DesktopUI .window-controls > div:hover [class*="SVGIcon"] rect, .DesktopUI .window-controls > div:hover [class*="SVGIcon"] polyline, .ModalPosition_Dismiss .closeButton:hover line{
+    stroke: var(--Maize) !important;
+    transition: none;
+}
+
+.LQkrbbayZPY11qHm01t7F{
+    border: var(--Outset);
+    min-width: fit-content !important;
+    background: var(--GreenBG) !important;
+    box-shadow: none !important;
+    box-sizing: border-box;
+}
+
+.LQkrbbayZPY11qHm01t7F .DialogCheckbox{
+    box-shadow: none !important;
+}
+
+.LQkrbbayZPY11qHm01t7F svg{
+    stroke: var(--Maize) !important;
+}
+
+._3B1SUx7hDHl_0zpJXbJMcC{
+background: transparent;
+}
+
+._3B1SUx7hDHl_0zpJXbJMcC ._2ZOluvz9PNJJ_h5yPgdIGP{
+    background-color: var(--Maize);
+}
+
+
+.Checkbox stop{
+    stop-color: var(--Maize) !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--GreenBG) !important;
+    border-radius: 0% !important;
+}
+
+::selection{
+    text-shadow: none;
+}
