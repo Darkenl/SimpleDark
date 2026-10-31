@@ -1,0 +1,107 @@
+/* Settings-style dialogs (game Properties, Steam Settings, etc.) */
+.ModalDialogBody, .PopupFullWindow{
+    background: var(--DarkGreenBG) !important;
+}
+
+.PagedSettingsDialog_PageListColumn{
+    background: var(--DarkGreenBG) !important;
+    border-right: 1px solid var(--GreenBG) !important;
+}
+
+.PagedSettingsDialog_Title{
+    color: var(--OffWhite) !important;
+}
+
+.PagedSettingsDialog_PageListItem{
+    color: var(--Label) !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+.PagedSettingsDialog_PageListItem:hover{
+    background: var(--GreenBG) !important;
+    color: var(--OffWhite) !important;
+}
+
+.PagedSettingsDialog_PageListItem.Active{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize) !important;
+}
+
+.PagedSettingDialog_ContentColumn, .PagedSettingsDialog_PageContent, .DialogContent{
+    background: var(--GreenBG) !important;
+    border: none !important;
+}
+
+.DialogHeader, .DialogBody, .SettingsDialogSubHeader, .FieldLabel{
+    color: var(--OffWhite) !important;
+}
+
+.DialogContent .Field.Background, .DialogContent .Field.Panel{
+    background: var(--DarkGreenBG) !important;
+    border-radius: 0 !important;
+}
+
+.DialogContent .Detail, .FieldDescription{
+    color: var(--Label) !important;
+}
+
+.SectionTopLine{
+    border-color: var(--LightGreenBG) !important;
+}
+
+.DialogDropDown, .DialogInput, .DialogTextInputBase, .DialogButton{
+    background: var(--DarkGreenBG) !important;
+    border: 1px solid var(--LightGreenBG) !important;
+    border-radius: 0 !important;
+    color: var(--OffWhite) !important;
+    box-shadow: none !important;
+}
+
+.DialogDropDown:hover, .DialogButton:hover{
+    background: var(--LightGreenBG) !important;
+    color: var(--Maize) !important;
+}
+
+.DialogContent .DialogInput, .DialogContent .DialogTextInputBase{
+    background: var(--GreenBG) !important;
+}
+
+/* Toggles: gray instead of blue */
+.Toggle .ToggleRail{
+    background: var(--LightGreenBG) !important;
+}
+
+.Toggle.On .ToggleRail{
+    background: #8a8a8a !important;
+}
+
+.Toggle .ToggleSwitch{
+    background: var(--OffWhite) !important;
+}
+
+/* Denser Settings / Properties navigation and form spacing. */
+.PagedSettingsDialog_PageListColumn {
+    width: 170px !important;
+    min-width: 170px !important;
+    padding: 6px !important;
+    box-sizing: border-box;
+}
+.PagedSettingsDialog_PageListItem {
+    padding: 5px 8px !important;
+    min-height: 26px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+.PagedSettingsDialog_PageContent { padding: 12px !important; }
+.DialogContent .Field, .DialogContent .SettingsDialogSubHeader {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+.DialogContent .DialogButton, .DialogContent .DialogDropDown {
+    min-height: 26px !important;
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+    box-sizing: border-box;
+}
+.DialogContent .DialogBodyText { margin-bottom: 8px !important; }

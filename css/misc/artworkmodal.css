@@ -1,0 +1,99 @@
+._36VpVPlpKPUM0pVoKojRbG{
+    border: var(--Outset);
+}
+
+._1Lfu7heMNRsXXo1Yfzsp17{
+    box-shadow: none;
+    background: var(--DarkGreenBG);
+}
+
+.bAmL1RoRQJ72mvxRb_Mi_{
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+._1-MBEyCblWLDI_ymHW40W8 ._2yt71EY8-YdWa8dBEE1DAW{
+    color: var(--Maize);
+}
+
+._1DyzX9pEE7A4y0qHu9FVmp, ._36VpVPlpKPUM0pVoKojRbG ._39nnaT_CLE0m_WXVIrAwaG{
+    box-shadow: none;
+    border: var(--Outset);
+    background: var(--GreenBG);
+    border-radius: 0%;
+    position: relative;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG{
+    background: transparent;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG ._3KynfhyRTjRbiUVeqUdUBJ.HasComments{
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .FPxfNOUIyMTxA5iyxVWGX{
+    margin: 0;
+    background-color: var(--GreenBG);
+    color: var(--DimListText);
+    border: var(--Outset);
+    min-height: 32px;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .FPxfNOUIyMTxA5iyxVWGX:hover{
+    color: var(--OffWhite);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .FPxfNOUIyMTxA5iyxVWGX:active{
+    color: var(--Maize);
+    border: var(--Inset);
+    background-color: var(--DarkGreenBG);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentHeader .CommentTime{
+    color: var(--Label);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentText{
+    color: var(--OffWhite);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton .CommentRating{
+    color: inherit;
+} 
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton{
+    color: var(--DimListText);
+    background: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    transition: none;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton:hover{
+    color: var(--OffWhite);
+    background: var(--GreenBG);
+}
+
+/* Hopeful wishing that they eventually add :has support lol */
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton:has(.UserRated), ._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton:active{
+    color: var(--Maize);
+    background: var(--DarkGreenBG);
+    border: var(--Inset);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRatingButton .UserRated{
+    color: var(--Maize);
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRating svg path{
+    fill: currentColor;
+    stroke: currentColor;
+    color: inherit;
+}
+
+._39nnaT_CLE0m_WXVIrAwaG .Comment .CommentBody .CommentControls .CommentRating svg{
+    opacity: 1 !important;
+}
