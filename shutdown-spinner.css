@@ -1,0 +1,28 @@
+/* Retain the native status message and Exit Now / Cancel actions. */
+._3StXNL1HvLIJMUxfaFLdX- .SteamLogoThrobber {
+    width: 110px !important;
+    height: 73px !important;
+    min-height: 73px !important;
+    margin: 0 auto 8px !important;
+    background: transparent !important;
+}
+._3StXNL1HvLIJMUxfaFLdX- .SteamLogoThrobber * {
+    animation: none !important;
+    transform: none !important;
+}
+._3StXNL1HvLIJMUxfaFLdX- .SteamLogoThrobber > div {
+    width: 110px !important;
+    height: 73px !important;
+    overflow: visible !important;
+    background: transparent !important;
+}
+._3StXNL1HvLIJMUxfaFLdX- img[data-sd-shutdown-spinner="true"] {
+    width: 110px !important;
+    height: 73px !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain;
+    filter: url("#sd-shutdown-spinner-alpha") !important;
+    mix-blend-mode: normal !important;
+    background: transparent !important;
+}

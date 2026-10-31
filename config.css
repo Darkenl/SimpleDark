@@ -1,0 +1,19 @@
+/* SFP users, you're in the right place! Millennium users, use the inbuilt config editor. */
+
+/** Disable rare achievements effect */
+/* @import url(css/config/rareachievements.css); */
+
+/** Disable avatar borders/frames */
+/* @import url(css/config/avatarframes.css); */
+
+/** Disable status lines on PFPs in Friends */
+/* @import url(css/config/statuslines.css); */
+
+/** Disable Logo on download page */
+/* @import url(css/config/downloadlogo.css); */
+
+/** Disable "New Message" line and text in Chat  */
+/* @import url(css/config/newmsgline.css); */
+
+/** Disable PFPs in chat tabs */
+/* @import url(css/config/chattabpfps.css); */

@@ -1,0 +1,133 @@
+{
+    "name": "SimpleDark",
+    "description": "Compact charcoal Steam theme: thin borders, icon navigation, unified game cards, and dark animated login screens. Based on OldSteam by MapleAtMorning.",
+    "author": "Darkenl",
+    "github": {
+        "owner": "Darkenl",
+        "repo_name": "SimpleDark"
+    },
+    "tags": [
+        "Dark",
+        "Minimal",
+        "Compact",
+        "Monochrome"
+    ],
+    "Conditions": {
+        "Disable Avatar Status Lines": {
+            "description": "Disable the avatar status lines on friends",
+            "default": "yes",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/config/statuslines.css"
+                    }
+                }
+            }
+        },
+        "Disable Download Logo": {
+            "description": "Disable the logo that shows up on the downloads page for the currently downloading game",
+            "default": "no",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "css/config/downloadlogo.css"
+                    }
+                }
+            }
+        },
+        "Disable Avatar Frames": {
+            "description": "Disable the avatar frames around profile pictures",
+            "default": "no",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/config/avatarframes.css"
+                    }
+                }
+            }
+        },
+        "Disable New Message Line": {
+            "description": "Disable the line and \"New Message\" text in chats",
+            "default": "yes",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/config/newmsgline.css"
+                    }
+                }
+            }
+        },
+        "Disable Chat Tab PFPs": {
+            "description": "Disable the profile pictures in tabs for steam chat",
+            "default": "no",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/config/chattabpfps.css"
+                    }
+                }
+            }
+        }
+    },
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "js/gamepage.js"
+        },
+        {
+            "MatchRegexString": ".ModalDialogPopup",
+            "TargetCss": "libraryroot.custom.css"
+        },
+        {
+            "MatchRegexString": "Menu$",
+            "TargetCss": "menu.custom.css"
+        },
+        {
+            "MatchRegexString": "Supernav$",
+            "TargetCss": "menu.custom.css"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "friends.custom.css"
+        },
+        {
+            "MatchRegexString": "https://.*\\.steampowered\\.com(/.*)?",
+            "TargetCss": "webkit.css"
+        },
+        {
+            "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
+            "TargetCss": "webkit.css"
+        },
+        {
+            "MatchRegexString": "^(Sign in to Steam|SP DesktopLoginWindow)$|.*[Ll]ogin.*",
+            "TargetCss": "login.custom.css",
+            "TargetJs": "js/login-compact.js"
+        },
+        {
+            "MatchRegexString": "^Steam$|.*[Ss]hutdown.*|.ModalDialogPopup",
+            "TargetCss": "shutdown-spinner.css",
+            "TargetJs": "js/shutdown-spinner.js"
+        }
+    ]
+}

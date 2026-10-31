@@ -1,0 +1,29 @@
+@import url(css/universal.css);
+
+@import url(css/library/library.css);
+@import url(css/library/sidebar.css);
+@import url(css/library/home.css);
+@import url(css/library/collection.css);
+@import url(css/library/allcollections.css);
+@import url(css/library/downloads.css);
+@import url(css/library/soundtrack.css);
+
+@import url(css/misc/launchopt.css);
+@import url(css/misc/nonsteamgame.css);
+@import url(css/misc/artworkmodal.css);
+@import url(css/misc/note.css);
+@import url(css/misc/screenshotmanager.css);
+@import url(css/misc/properties.css);
+@import url(css/misc/gameservers.css);
+
+@import url(css/client/browser.css);
+@import url(css/client/navbar.css);
+@import url(css/client/main.css);
+@import url(css/client/footer.css);
+
+@import url(config.css);
+@import url(css/misc/dialogs.css);
+@import url(css/client/menus.css);
+@import url(css/client/extras.css);
+@import url(css/library/gamepage.css);
+@import url(css/client/compact.css);
