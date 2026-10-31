@@ -1,0 +1,26 @@
+:root { /* SimpleDark palette: #212121 / #333333 / #444444 */
+	--LightGreenBG: #444444 !important;
+	--GreenBG: #333333 !important;
+	--DarkGreenBG: #212121 !important;
+	--BorderBright: #444444 !important;
+	--BorderDark: #1a1a1a !important;
+	--OffWhite: #e0e0e0 !important;
+	--Maize: #ffffff !important;
+	--MaizeBG: #555555 !important;
+	--Label: #b0b0b0 !important;
+	--DimListText: #8a8a8a !important;
+	--DisabledText1: #707070 !important;
+	--DisabledText2: #2a2a2a !important;
+	--FullGreen: #555555 !important;
+
+    --Inset: 1px solid var(--BorderBright);
+    --Outset: 1px solid var(--BorderBright);
+	--MaizeFilter: brightness(0) invert(100%);
+	--OffWhiteFilter: brightness(0) invert(88%);
+	--DisabledText1Filter: brightness(0) invert(44%);
+}
+
+/* Font: Museo Sans 500 (must be installed on the system) */
+*, *::before, *::after {
+	font-family: "MuseoSans-500", "Museo Sans 500", "Museo Sans", "Motiva Sans", Arial, sans-serif !important;
+}
